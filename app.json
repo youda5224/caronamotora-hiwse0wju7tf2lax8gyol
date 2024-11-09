@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "caronamotora",
+    "slug": "caronamotora-hiwse0wju7tf2lax8gyol",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.caiolelis.caronamotorahiwse0wju7tf2lax8gyol"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.caiolelis.caronamotorahiwse0wju7tf2lax8gyol"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3d6f66ae-e358-475b-8466-62e1676158d4"
+      }
+    },
+    "owner": "caiolelis",
+    "updates": {
+      "url": "https://u.expo.dev/3d6f66ae-e358-475b-8466-62e1676158d4"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
